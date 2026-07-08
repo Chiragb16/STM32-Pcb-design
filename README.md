@@ -1,25 +1,84 @@
-STM32 Clone Board
-This repository showcases a custom-designed STM32-based clone board that supports multiple communication interfaces like UART, I2C, and SPI. It is built to serve as a versatile development platform for embedded systems and sensor interfacing projects. The design aims to replicate the functionality of standard STM32 development boards while maintaining simplicity and cost-effectiveness.
+# BlueCore
 
-Overview
-The STM32 Clone Board provides a compact, feature-rich environment for learning, prototyping, and developing firmware for STM32 microcontrollers.
-Using STM32CubeMX as a reference for peripheral configuration and STM32CubeIDE for development, it enables quick setup and smooth integration with various tools and libraries.
+## Custom STM32F103C8T6 Development Board
 
-This project is ideal for students, hobbyists, or engineers working on:
+BlueCore is a custom-designed development board built around the STM32F103C8T6 ARM Cortex-M3 microcontroller. Designed from the ground up in **KiCad**, the board provides the essential hardware required for embedded development, firmware testing, and rapid prototyping. It integrates onboard power regulation, USB connectivity, SWD programming, clock circuitry, UART communication, and expansion headers, making it an ideal platform for learning STM32 development and building embedded applications.
 
-Sensor interfacing (temperature, pressure, gas sensors, etc.)
+---
 
-Communication protocol testing (SPI/I2C peripherals)
+## Features
 
-Low-cost embedded controller designs
+- STM32F103C8T6 ARM Cortex-M3 Microcontroller
+- Onboard **3.3V AMS1117** Voltage Regulator
+- Micro USB Power & Communication
+- SWD Programming and Debug Interface
+- 8 MHz External Crystal Oscillator
+- UART Communication Header
+- I²C Expansion Header
+- Boot Mode Selection Circuit
+- Reset Push Button
+- Power Status LED
+- ESD Protection and Power Filtering
+- Four Mounting Holes
+- Custom PCB Designed in KiCad
 
-Rapid hardware and firmware prototyping
+---
 
-Features
-STM32 microcontroller (compatible with STM32F103, STM32C3, or similar devices)
+## Hardware Specifications
 
-Full support for UART, I2C, and SPI communication protocols
+| Component | Description |
+|-----------|-------------|
+| MCU | STM32F103C8T6 (ARM Cortex-M3) |
+| Operating Voltage | 3.3 V |
+| USB | Micro USB |
+| Programming | SWD |
+| Clock | 8 MHz External Crystal |
+| Interfaces | UART, I²C, GPIO |
+| Power Regulation | AMS1117-3.3 |
+| Status Indicator | Power LED |
 
-On-board USB-to-UART converter for programming and serial debugging
+---
 
-3.3 V logic operation with optional 5 V supply input
+## Design Highlights
+
+- Complete schematic designed from scratch using KiCad
+- Proper power filtering and decoupling for stable operation
+- Dedicated SWD interface for programming and debugging
+- Boot configuration circuitry for firmware flashing
+- Clean and modular layout for easy expansion
+- Compact form factor suitable for prototyping and development
+
+---
+
+## Applications
+
+- Embedded Systems Development
+- STM32 Learning Platform
+- Firmware Development
+- Sensor Interfacing
+- IoT Prototyping
+- Robotics
+- Automation Projects
+- Educational Labs
+
+---
+
+## Tools Used
+
+- **KiCad**
+- **STM32CubeMX**
+- **STM32CubeIDE**
+- **Embedded C**
+
+---
+
+## Project Status
+
+- ✅ Schematic Design Completed
+- ✅ PCB Layout Completed
+- ✅ Design Rule Check (DRC) Passed
+- ✅ Ready for Fabrication
+
+---
+
+
